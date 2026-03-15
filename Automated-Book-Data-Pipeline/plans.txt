@@ -1,0 +1,6 @@
+url = "url"
+
+data = requests.get(url)
+soup = BeatifulSoup(data, html5.txt)
+
+soup.find_all()
