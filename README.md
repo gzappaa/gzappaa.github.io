@@ -1,6 +1,5 @@
-# gzappaa.github.io
+# Portfolio Giovanni Zappa
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
