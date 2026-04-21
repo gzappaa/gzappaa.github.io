@@ -63,7 +63,7 @@
   </div>
   <div class="section">
     <p>A data pipeline that builds a structured Hebrew vocabulary dataset from multiple real-world Israeli sources — dictionary entries, song lyrics, news articles, and YouTube comments — and outputs a single unified JSON ready for use in language learning APIs, apps, or databases.</p>
-    <p>The core challenge is Hebrew's <strong>niqqudot</strong> (vowel points): modern Hebrew text is written without them, so the same string like <code>חברה</code> can mean <em>company</em>, <em>girlfriend</em>, or <em>she connected</em> depending on context. The pipeline handles this by matching words across all inflected forms in conjugation tables using Unicode NFD decomposition, and flags entries with <code>multiple_meanings: true</code> when ambiguity exists.</p>
+    <p>The core challenge was Building a robust multi-source data pipeline across heterogeneous Hebrew data sources, dealing with rate limits, API restrictions, and inconsistent web structures, while ensuring ethical scraping practices and data normalization in a language outside my full fluency.</p>
   </div>
   <div class="section">
     <h2>GitHub Repository</h2>
